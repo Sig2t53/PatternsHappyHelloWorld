@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace PatternsHappyHelloWorld
 {
-    class Program
+    public abstract class AbstractStrategyFactory
     {
-        static void Main(string[] args)
-        {
-        }
+        public abstract MessageStrategy CreateStrategy(MessageBody mb);
     }
 }

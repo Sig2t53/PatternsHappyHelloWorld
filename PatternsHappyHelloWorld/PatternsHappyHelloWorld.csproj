@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AbstractStrategyFactory.cs" />
+    <Compile Include="DefaultFactory.cs" />
+    <Compile Include="MessageBody.cs" />
+    <Compile Include="MessageStrategy.cs" />
+    <Compile Include="HelloWorld.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
